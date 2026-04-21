@@ -1,0 +1,87 @@
+.bg-primary{
+    background-color: rgb(126, 166, 206)!important;
+    background-image: url("../assets/img/brushed-alum.png");
+}
+
+.social-icons .social-icon:hover {
+    background-color:rgb(126, 166, 206);
+}
+
+.text-primary {
+    --bs-text-opacity: 1;
+    color: rgb(126, 166, 206) !important;
+}
+
+a:hover {
+    color: #343a40  ;
+}
+
+a {
+    color: rgb(126, 166, 206) ;
+    text-decoration: underline;
+}
+
+.nav-link:hover, .nav-link:focus {
+    color: rgb(255, 255, 255);
+}
+
+h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
+  font-family: "Noto Sans TC", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+h1,.h1{
+    font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    text-transform: uppercase;
+    font-size: 5rem;
+}
+
+h2,.h2{
+    font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    text-transform: uppercase;
+    font-size: 4rem;
+}
+
+h4,.h4{
+    font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+
+.list-inline-item{
+    color:rgb(126, 166, 206);
+}
+
+.nav-link { color:rgba(128, 128, 128, 0.547); text-decoration: none; display: block; padding: 8px; }
+
+/* 當標籤被偵測到時，會套用這個顏色 */
+.nav-link.active {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    border-left: 3px solid rgba(128, 128, 128, 0.547);
+}
+
+section {border-bottom: 1px solid #ccc; } /* 讓區塊夠長才能滑動 */
+
+.card-img-top {
+    width: 300px;  /* 設定你想要的寬度 */
+    height: auto;   /* 關鍵：自動按比例縮小高度 */
+}
+
+.icon-wirning{
+    color:rgb(135, 169, 203);
+}
+
+.resume-section{
+    background-color:rgba(230, 242, 255, 0.825);
+}
+section.resume-section {
+  display: flex;
+  align-items: center;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  max-width: 100%;
+}
