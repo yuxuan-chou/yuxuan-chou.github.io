@@ -72,16 +72,3 @@ section {border-bottom: 1px solid #ccc; } /* 讓區塊夠長才能滑動 */
 .icon-wirning{
     color:rgb(135, 169, 203);
 }
-
-.resume-section{
-    background-color:rgba(230, 242, 255, 0.825);
-}
-section.resume-section {
-  display: flex;
-  align-items: center;
-  padding-left: 2rem;
-  padding-right: 2rem;
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-  max-width: 100%;
-}
